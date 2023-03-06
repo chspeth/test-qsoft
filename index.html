@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>QSOFT test</title>
+</head>
+<body class="page">
+  <header class="page__header header">
+      <div class="header__wrapper">
+        <a class="header__link" href="#">
+          <img class="header__logo" src="./img/logotypes/logo.svg" width="135" height="30" alt="QSOFT logotype">
+        </a>
+        <a class="header__link search" href="#">
+          <form class="search__form" action="#" method="get">
+            <label class="visually-hidden" for="search">
+              Поиск по сайту
+            </label>
+            <input class="search__field" type="search" name="search" id="search" placeholder="Найти...">
+          </form>
+        </a>
+        <a class="header__link user" href="#">
+          <span class="user__name">
+            Константин
+          </span>
+          <img class="user__userpic" src="./img/content/userpic.png" alt="Фотография профиля">
+        </a>
+      </div>
+  </header>
+  <main class="page__main main">
+    <div class="main__wrapper">
+      <h1 class="visually-hidden">
+        QSOFT - разработка и поддержка интернет-сайтов и интернет-магазинов
+      </h1>
+      <section class="main__partners partners">
+        <h2 class="partners__header">
+          Наши партнеры
+        </h2>
+        <ul class="partners__list">
+          <li class="partners__item">
+            <picture>
+              <source media="(min-width: 768px)" srcset="./img/content/henkel-tablet.png">
+              <img class="partners__logo-img" src="./img/content/henkel-mobile.png" alt="Henkel" title="Henkel">
+            </picture>
+          </li>
+          <li class="partners__item">
+            <picture>
+              <source media="(min-width: 1280px)" srcset="./img/content/johndeere-mobile.png">
+              <source media="(min-width: 768px)" srcset="./img/content/johndeere-tablet.png">
+              <img class="partners__logo-img" src="./img/content/johndeere-mobile.png" alt="John Deere" title="John Deere">
+            </picture>
+          </li>
+          <li class="partners__item">
+            <img class="partners__logo-img" src="./img/content/mcdonalds.png" alt="McDonald's" title="McDonald's">
+          </li>
+          <li class="partners__item">
+            <img class="partners__logo-img" src="./img/content/ikea.png" alt="Ikea" title="Ikea">
+          </li>
+          <li class="partners__item">
+            <img class="partners__logo-img" src="./img/content/reebok.png" alt="Reebok" title="Reebok">
+          </li>
+          <li class="partners__item">
+            <img class="partners__logo-img" src="./img/content/nike.png" alt="Nike" title="Nike">
+          </li>
+          <li class="partners__item">
+            <img class="partners__logo-img" src="./img/content/caterpillar.png" alt="Caterpillar" title="Caterpillar">
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

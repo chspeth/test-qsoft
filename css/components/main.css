@@ -1,0 +1,20 @@
+.main {
+  padding: 72px 20px;
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-top: 70px;
+  }
+
+  .main__wrapper {
+    max-width: 990px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main__wrapper {
+    max-width: 1240px;
+  }
+}

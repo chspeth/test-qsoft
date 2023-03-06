@@ -1,0 +1,48 @@
+.user {
+  position: absolute;
+  top: 14px;
+  right: 13px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../../img/icons/userpic.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .user {
+    display: flex;
+    align-items: center;
+    position: initial;
+    width: auto;
+    min-width: 149px;
+    min-height: 80px;
+    border-left: 1px solid #EBEBF1;
+    background-image: none;
+  }
+}
+
+.user__name {
+  font-size: 0;
+}
+
+@media (min-width: 768px) {
+  .user__name {
+    font-size: 14px;
+    padding-left: 19px;
+    display: block;
+    margin-right: 11px;
+  }
+}
+
+.user__userpic {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .user__userpic {
+    display: inline-block;
+    border-radius: 50%;
+  }
+}
